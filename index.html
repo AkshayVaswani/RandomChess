@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Chess Variant</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Chessboard.js CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
+</head>
+<body>
+  <h1>Random Chess Variant</h1>
+  <div id="board" style="width: 400px"></div>
+  <p id="status"></p>
+  <button id="restartBtn">Restart Game</button>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+
+  <!-- Chess.js -->
+  <script src="node_modules/chess.js/chess.js"></script>
+
+  <!-- Chessboard.js -->
+  <script src="https://unpkg.com/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+
+  <!-- Your JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>

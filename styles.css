@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #board {
+    margin: 0 auto;
+  }
+  
+  #status {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  #restartBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
